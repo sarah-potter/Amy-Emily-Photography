@@ -601,37 +601,67 @@ font-family: 'Georgia';
 	margin-left: 45em;
 }
 
-#sarah {
-	position: absolute;
-	text-align: center;
-	font-family: "Georgia";
-	font-style: italic;
-	font-size: 18px;
-	padding: 3em;
-	width: 325px;
-   transition: opacity .5s ease-in-out;
-   -moz-transition: opacity .5s ease-in-out;
-   -webkit-transition: opacity .5s ease-in-out;
+.sarah {
+position: absolute;
+text-align: center;
+font-family: "Georgia";
+font-style: italic;
+font-size: 16px;
+padding: 0;
+width: 300px;
+float: left;
+height: 505px;
+background-color: #faf5f3;
+transition: opacity .5s ease-in-out;
+-moz-transition: opacity .5s ease-in-out;
+-webkit-transition: opacity .5s ease-in-out;
+margin-left: 31em;
+top: 26.7em;
+
+}
+.sarah p{
+	font-size: 16px;
+	margin-top: 10em;
+	z-index: 999;
+}	
+	
+.sarah:after,
+.sarah:before {
+  position: absolute;
+  content: "";
+  z-index: 1;
+  top: 0;  
+  width: 0px;
+  background: transparent;
+  border-top: 150px transparent solid; 
+  border-bottom: 150px transparent solid;
+}
+
+.sarah:before {
+float: left;
+border-right: 140px solid #faf5f3;
+border-top: 254px solid transparent;
+border-bottom: 254px solid transparent;
+margin-left: -17.8em;
+}
+.sarah:after {
+float: left;
+border-left: 145px solid #faf5f3;
+border-top: 254px solid transparent;
+border-bottom: 254px solid transparent;
+margin-left: 9.2em;
 }
 	
+	
+	
 #hexagon-2 span:hover{
-	opacity: .7;
+	opacity: .5;
 }
-
-
-#sarah{
-float: left;
-width: 325px;
-height: 500px;
-background-color: #faf5f3;
-}
-
-
 
 .arrow{
 	position: absolute;
 	left: 10em;
-	margin-top: 36em;
+	top: 52em;
 	}
 .book{
 	position: absolute;
@@ -639,6 +669,10 @@ background-color: #faf5f3;
 	margin-top: 8em;
 	z-index: -30;
 	}
+	
+
+
+	
 
 /* =Recent Posts Hexagons 
 ------------------- */

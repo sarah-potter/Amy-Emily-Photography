@@ -12,13 +12,25 @@ get_header(); ?>
 		
 		<div id="hexagon-2"> 
 			<img  src="/wp-content/themes/amykelly/images/hexagon-2.png">
-					<span id="sarah">
+					<span class="sarah">
+						<p>Hope is the thing with feathers <br/>
+						that perches in the soul - <br />
+						and sings the tunes without the words - <br />
+						 and never stops at all.<br/>
+						-Emily Dickinson</p>
+					</span>
+					
+					
+					<!--
+<div class="booger">
 						Hope is the thing with feathers <br/>
 						that perches in the soul - <br />
 						and sings the tunes without the words - <br />
 						 and never stops at all.<br/>
 						-Emily Dickinson
-					</span>
+				
+					</div>
+-->
 	</div>
 		
 		<img id="hexagon-3" src="/wp-content/themes/amykelly/images/hexagon-3.png">
