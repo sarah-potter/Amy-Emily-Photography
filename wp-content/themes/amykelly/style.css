@@ -586,8 +586,9 @@ font-family: 'Georgia';
 	margin-top: 3em;
 	margin-left: -10em;
 }
-#hexagon-2{
+#hexagon-2 img{
 	position: absolute;
+	clear: both;
 	clear: both;
 	margin-left: 25.5em;
 	top: 30.5em;
@@ -600,43 +601,31 @@ font-family: 'Georgia';
 	margin-left: 45em;
 }
 
-#sarah span{
+#sarah {
 	position: absolute;
 	text-align: center;
 	font-family: "Georgia";
 	font-style: italic;
 	font-size: 18px;
-	background: #faf5f3;
 	padding: 3em;
 	width: 325px;
-	opacity: 0;
    transition: opacity .5s ease-in-out;
    -moz-transition: opacity .5s ease-in-out;
    -webkit-transition: opacity .5s ease-in-out;
 }
+	
 #hexagon-2 span:hover{
 	opacity: .7;
 }
 
 
-#sarah-top{
-float: left;
-border-right: 100px solid #faf5f3;
-border-top: 250px solid transparent;
-border-bottom: 250px solid transparent;
-}
 #sarah{
 float: left;
 width: 325px;
 height: 500px;
 background-color: #faf5f3;
 }
-#sarah-bottom{
-float: left;
-border-left: 100px solid #faf5f3;
-border-top: 250px solid transparent;
-border-bottom: 250px solid transparent;
-}
+
 
 
 .arrow{

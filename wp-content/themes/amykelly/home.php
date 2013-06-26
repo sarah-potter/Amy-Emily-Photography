@@ -10,22 +10,16 @@ get_header(); ?>
 	<div id="giant-hexagons">
 		<img id="hexagon-1" src="/wp-content/themes/amykelly/images/hexagon-1.png">
 		
-		<!--
-<div id="hexagon-2"> 
-			<div id="sarah-top"></div>
-				<div id="sarah"> 
-					<span class="hex">
+		<div id="hexagon-2"> 
+			<img  src="/wp-content/themes/amykelly/images/hexagon-2.png">
+					<span id="sarah">
 						Hope is the thing with feathers <br/>
 						that perches in the soul - <br />
 						and sings the tunes without the words - <br />
 						 and never stops at all.<br/>
 						-Emily Dickinson
 					</span>
-				</div>
-			<div id="sarah-bottom"></div>
-		<img  src="/wp-content/themes/amykelly/images/hexagon-2.png">
 	</div>
--->
 		
 		<img id="hexagon-3" src="/wp-content/themes/amykelly/images/hexagon-3.png">
 		
