@@ -608,7 +608,7 @@ font-family: "Georgia";
 font-style: italic;
 font-size: 16px;
 padding: 0;
-width: 300px;
+width: 305px;
 float: left;
 height: 505px;
 background-color: #faf5f3;
@@ -617,6 +617,7 @@ transition: opacity .5s ease-in-out;
 -webkit-transition: opacity .5s ease-in-out;
 margin-left: 31em;
 top: 26.7em;
+opacity: 0;
 
 }
 .sarah p{
@@ -639,9 +640,9 @@ top: 26.7em;
 
 .sarah:before {
 float: left;
-border-right: 140px solid #faf5f3;
-border-top: 254px solid transparent;
-border-bottom: 254px solid transparent;
+border-right: 135px solid #faf5f3;
+border-top: 250px solid transparent;
+border-bottom: 250px solid transparent;
 margin-left: -17.8em;
 }
 .sarah:after {
@@ -655,7 +656,7 @@ margin-left: 9.2em;
 	
 	
 #hexagon-2 span:hover{
-	opacity: .5;
+	opacity: .8;
 }
 
 .arrow{
